@@ -9,7 +9,7 @@ populateUI();
 let ticketPrice = +movieSelect.value;
 
 // Save selected movie index and price
-function setMovieData(movieIndex, moviePrice, paramOne) {
+function setMovieData(movieIndex, moviePrice) {
   localStorage.setItem('selectedMovieIndex', movieIndex);
   localStorage.setItem('selectedMoviePrice', moviePrice);
 }
@@ -70,3 +70,4 @@ container.addEventListener('click', e => {
 
 // Initial count and total set
 updateSelectedCount();
+// Hola
