@@ -7,8 +7,9 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "https://github.com/jjnoruega/cinema-seat-booking",
+            "name": "cinema seat booking",
+            // "url": "https://github.com/jjnoruega/cineC:\sers\jjnor\Documents\VisualStudioCode\cinema-seat-booking\index.htm"ma-seat-booking",
+            "url":"file:///C:/Users/jjnor/Documents/VisualStudioCode/cinema-seat-booking/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
